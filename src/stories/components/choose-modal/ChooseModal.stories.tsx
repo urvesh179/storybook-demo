@@ -34,7 +34,7 @@ const addOnStyle = {
 
 const itemsWithAddon: ChooseModalItem[] = [
   {
-    title: 'General',
+    title: 'Title-1',
     icon: <Button />,
     addonIcon: (
       <div style={addOnStyle}>
@@ -43,7 +43,7 @@ const itemsWithAddon: ChooseModalItem[] = [
     ),
   },
   {
-    title: 'SMS',
+    title: 'Title-2',
     icon: <Button />,
     addonIcon: (
       <div style={addOnStyle}>
@@ -64,19 +64,19 @@ const itemsWithAddon: ChooseModalItem[] = [
 
 const defaultItems: ChooseModalItem[] = [
   {
-    title: 'General',
-    description: 'Services booked by one client in a single visit',
+    title: 'Title-1',
+    description: 'description-1',
     icon: <CalendarOutlined />,
   },
   {
-    title: 'Confirmations',
+    title: 'Title-2',
     icon: <FileDoneOutlined />,
-    description: 'Use Pabau’s online video conferencing',
+    description: 'description-2',
   },
   {
-    title: 'Leads',
+    title: 'Title-3',
     icon: <TeamOutlined />,
-    description: 'Sell multiple services as a packaged bundle',
+    description: 'description-3',
   },
 ]
 
@@ -85,7 +85,7 @@ const ChooseServiceStory: FC<ChooseModalProps> = ({ ...args }) => {
   return (
     <>
       <Button type="primary" onClick={() => setVisible(true)}>
-        Choose Service Type
+       Click Me
       </Button>
       <ChooseModal
         {...args}
@@ -105,14 +105,14 @@ const ChooseServiceStory: FC<ChooseModalProps> = ({ ...args }) => {
 
 export const Default = ChooseServiceStory.bind({})
 Default.args = {
-  title: 'What type of email template are you creating',
+  title: 'Title',
   subTitle: 'Step 2 of 2',
   items: defaultItems,
 }
 
 export const WithAddOn = ChooseServiceStory.bind({})
 WithAddOn.args = {
-  title: 'Select the type of template you wish to create',
+  title: 'Title',
   subTitle: 'Step 1 of 2',
   items: itemsWithAddon,
 }

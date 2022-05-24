@@ -52,7 +52,7 @@ HelpTooltipControl.args = {
 export const InputEmailAddress = InputStory.bind({})
 
 InputEmailAddress.args = {
-  text: 'Pabau@Pabau.com',
+  text: 'test@test.com',
   label: 'Email',
   type: 'email',
   placeHolderText: 'Enter email',

@@ -63,7 +63,7 @@ export function InputNumber({
             className="inputNumber"
             placeholder={placeHolderText}
             formatter={(value) =>
-              showCurrency ? `${currency || '£'} ${value}` : `${value}`
+              showCurrency ? `${currency || 'Rs.'} ${value}` : `${value}`
             }
             size={size}
             disabled={disabled}

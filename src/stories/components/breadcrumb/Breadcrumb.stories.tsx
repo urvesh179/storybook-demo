@@ -13,7 +13,7 @@ const BreadcrumbStory = ({ breadcrumbItems }) => {
 export const Basic = BreadcrumbStory.bind({})
 Basic.args = {
   breadcrumbItems: [
-    { breadcrumbName: 'Setup', path: '' },
-    { breadcrumbName: 'Source', path: '' },
+    { breadcrumbName: 'Back', path: '' },
+    { breadcrumbName: 'Current', path: '' },
   ],
 }

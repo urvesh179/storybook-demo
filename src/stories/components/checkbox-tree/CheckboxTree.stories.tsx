@@ -15,9 +15,9 @@ export default {
 }
 
 export const CheckboxTreeStory: FC<CheckboxTreeProps> = ({ treeData }) => {
-  const [expandedKeys, setExpandedKeys] = useState(['Accent prime'])
+  const [expandedKeys, setExpandedKeys] = useState(['Select1'])
   const [checkedKeys, setCheckedKeys] = useState([
-    'Accent prime - Subcategory 1',
+    'Select1 - Subcategory 1',
   ])
   const [autoExpandParent, setAutoExpandParent] = useState(true)
 

@@ -13,7 +13,7 @@ export default {
 const LanguageDropdownStory = ({ ...rest }) => <LanguageDropdown {...rest} />
 export const Basic = LanguageDropdownStory.bind({})
 Basic.args = {
-  label: 'Default language for your staff',
+  label: 'Languages',
   value: 'French',
   tooltip: '',
   onSelected: (value) => {

@@ -17,10 +17,10 @@ const SimpleDropdownStory = ({ ...args }: SimpleDropdownProps) => (
 )
 export const Basic = SimpleDropdownStory.bind({})
 Basic.args = {
-  label: 'Reverse Family Relation',
+  label: 'DropDown',
   value: 'a',
   dropdownItems: ['a', 'b'],
-  tooltip: 'Reverse Family Relation',
+  tooltip: 'DropDown',
   onSelected: (val) => {
     notification.open({ message: `Select ${val}` })
   },

@@ -1,11 +1,11 @@
-/* eslint-disable */
 import React from 'react'
 import { render } from '@testing-library/react'
-import ShareReview from './ShareReview'
 
-describe('ShareReview', () => {
+import TimeInput from './TimeInput'
+
+describe('TimeInput', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<ShareReview />)
+    const { baseElement } = render(<TimeInput />)
     expect(baseElement).toBeTruthy()
   })
 })

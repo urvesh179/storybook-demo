@@ -71,7 +71,7 @@ export const ChooseModal: FC<ChooseModalProps> = ({
             onClose()
           }}
         >
-          <span>Esc</span>
+          <span>Close</span>
           <div>
             <CloseOutlined />
           </div>

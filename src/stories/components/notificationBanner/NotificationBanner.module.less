@@ -1,0 +1,88 @@
+.notification-body {
+  background: #e9faff no-repeat right bottom;
+  margin-bottom: 32px;
+  min-height: 144px;
+  @media screen and (max-width: 767px) {
+    margin-top: 15px;
+    background-position: top;
+  }
+}
+
+.hideBlock {
+  display: none;
+}
+
+.title1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Circular-Std-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title2 {
+  margin-left: 20px;
+  margin-top: 8px;
+  font-family: 'Circular-Std-Medium';
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.link-email {
+  color: #54b2d3;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.btn-payment {
+  font-family: 'Circular-Std-Medium';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #54b2d3;
+  position: absolute;
+  bottom: 0;
+  @media screen and (max-width: 767px) {
+    position: unset;
+  }
+}
+
+.backgroundImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 76%;
+}
+
+.rowPosition {
+  position: relative !important;
+  min-height: 144px;
+  @media screen and (max-width: 767px) {
+    :global .ant-col {
+      margin-top: 110px;
+    }
+  }
+}
+
+.iconClose {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+}

@@ -9,7 +9,7 @@ export default {
   component: Checkbox,
   title: 'Forms/Checkbox',
   args: {
-    label: 'Pabau',
+    label: 'Check',
     disabled: false,
     onChange: (e) => {
       console.log('Checkbox value change to', e.target.checked)

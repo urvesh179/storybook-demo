@@ -11,7 +11,7 @@ import { Story } from '@storybook/react/types-6-0'
 export default {
   component: Button,
   title: 'Basics/Button',
-  args: { label: 'Pabau', disabled: false, type: '', size: 'medium' },
+  args: { label: 'Button', disabled: false, type: '', size: 'medium' },
   argTypes: {
     label: { control: { type: 'text' } },
     disabled: { control: { type: 'boolean' } },
