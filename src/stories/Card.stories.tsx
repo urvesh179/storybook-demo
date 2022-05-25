@@ -6,7 +6,7 @@ import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/ico
 
 const { Meta } = Card;
 export default {
-  title: 'Example/ant d Card',
+  title: 'UI/ant d Card',
   component: Card,
 } as StoryMeta;
 
